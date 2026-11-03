@@ -1,0 +1,12 @@
+How to add a photo
+
+1. Put a JPEG in the photos folder. Name it like the others, for example lifestyle-31.jpg. Keep the long edge at 2000 pixels or under.
+2. Open data/portfolio.json.
+3. Find the section (lifestyle, studio, 360, event, 3d, or ai).
+4. Add one line to that section's photos list.
+5. Save and refresh.
+
+Example:
+{ "file": "photos/lifestyle-31.jpg", "alt": "Lifestyle photograph 31", "width": 1600, "height": 1200 }
+
+A 360 tour is different. Put the thumbnail in photos/360/ and add one object to data/360.json with title, url, thumb, width, height, and alt.
