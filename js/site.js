@@ -355,6 +355,22 @@
       });
     });
 
+    var tourTiles = document.querySelectorAll(".tour-teaser .tour-tile");
+    if (tourTiles.length) {
+      gsap.fromTo(tourTiles, { opacity: 0.2, y: 36 }, {
+        opacity: 1,
+        y: 0,
+        ease: "none",
+        stagger: 0.06,
+        scrollTrigger: {
+          trigger: ".tour-teaser",
+          start: "top 75%",
+          end: "center 40%",
+          scrub: true
+        }
+      });
+    }
+
     var cards = document.querySelectorAll(".ai-card");
     cards.forEach(function (card, i) {
       if (i === cards.length - 1) return;
