@@ -11,10 +11,10 @@
     "GUCCI",
     "CHANEL",
     "DIOR",
-    "bloomingdales",
-    "Wynn",
+    "BLOOMINGDALES",
+    "WYNN",
     "L’ORÉAL",
-    "Saks Fifth Avenue"
+    "SAKS FIFTH AVENUE"
   ],
   "columns": [
     [
@@ -25,7 +25,7 @@
       "ARMANI",
       "H&M",
       "SUNGLASSES HUT",
-      "ROYAL CARRIBEAN",
+      "ROYAL CARIBBEAN",
       "PUBLIC HOTEL",
       "FERRAGAMO"
     ],
@@ -36,17 +36,16 @@
       "UBER",
       "BROOKLYN MUSEUM",
       "FENDI",
-      "23 AND ME",
+      "23ANDME",
       "TOPSHOP",
       "HBO",
-      "ELEVEN MADISON PARK",
-      "RESTAURANT"
+      "ELEVEN MADISON PARK"
     ],
     [
       "LA PERLA",
       "LONGCHAMP",
       "MULBERRY",
-      "MARIMEKO",
+      "MARIMEKKO",
       "GREY GOOSE",
       "GUESS",
       "DIESEL",

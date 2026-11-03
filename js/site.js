@@ -208,7 +208,7 @@
       var more = document.createElement("a");
       more.className = "view-all";
       more.href = TOUR_PAGE;
-      more.textContent = "View";
+      more.textContent = "View all 360 work";
       box.append(grid, more);
       el.append(box);
     } else {
@@ -282,16 +282,16 @@
     }
 
     var words = document.querySelectorAll(".bio-text .word");
-    var bio = document.querySelector(".bio");
-    if (bio && words.length) {
+    var bioText = document.querySelector(".bio-text");
+    if (bioText && words.length) {
       gsap.to(words, {
         opacity: 1,
         ease: "none",
         stagger: { each: 0.08, from: "start" },
         scrollTrigger: {
-          trigger: bio,
-          start: "top 75%",
-          end: "bottom 55%",
+          trigger: bioText,
+          start: "top 92%",
+          end: "top 60%",
           scrub: true
         }
       });
@@ -331,14 +331,14 @@
     });
 
     document.querySelectorAll("#studio figure").forEach(function (fig, i) {
-      var shift = 24 + (i % 3) * 26;
+      var shift = 12 + (i % 3) * 10;
       gsap.fromTo(fig, { y: shift }, {
-        y: -shift,
+        y: 0,
         ease: "none",
         scrollTrigger: {
           trigger: fig,
           start: "top bottom",
-          end: "bottom top",
+          end: "top 35%",
           scrub: true
         }
       });
