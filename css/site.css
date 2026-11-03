@@ -349,21 +349,31 @@ a { color: inherit; }
   gap: 0.7rem;
 }
 
+.tour-peek,
 .tour-tile {
   display: block;
   color: inherit;
   text-decoration: none;
 }
 
+.tour-peek img,
 .tour-tile img { width: 100%; height: auto; }
 
-.tour-tile span,
+.tour-title,
 .view-all {
   display: block;
   margin-top: 0.45rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-size: 0.72rem;
+}
+
+.tour-view {
+  display: block;
+  margin-top: 0.2rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
 }
 
 .view-all {
@@ -450,9 +460,17 @@ body[data-page="tours"] { background: var(--paper); color: var(--ink); }
 
 .tour-mosaic {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.2rem 0.8rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .tour-mosaic { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 390px) {
+  .tour-mosaic { grid-template-columns: 1fr; }
 }
 
 .missing {
@@ -508,8 +526,7 @@ body[data-page="tours"] { background: var(--paper); color: var(--ink); }
   .h-track img { width: 100%; height: auto; max-width: 100%; }
   .studio-grid,
   .clip-grid,
-  .tour-grid,
-  .tour-mosaic { grid-template-columns: 1fr; }
+  .tour-grid { grid-template-columns: 1fr; }
   .ai-card { position: static; min-height: 0; }
 }
 

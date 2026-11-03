@@ -30,4 +30,4 @@ Example line for a lifestyle photograph:
 { "title": "Virtual Vanity", "url": "https://terrygates360.com/vsing/", "thumb": "photos/360/vsing.jpg", "width": 1800, "height": 1000, "alt": "Virtual Vanity 360 photograph" }
 ```
 
-Use the real tour address in `url`. The home page links to the 360 page. The 360 page opens that address in a new tab.
+Use the real tour address in `url`. The home page shows the first five pieces and links to the 360 page. The 360 page lists every piece and opens each tour in a new tab. The page draws the View 360 label. Do not put that label in the JSON.

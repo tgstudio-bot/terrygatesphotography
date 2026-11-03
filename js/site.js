@@ -18,6 +18,10 @@
     ai: "stack"
   };
 
+  var HOME_TOUR_COUNT = 5;
+  var TOUR_PAGE = "360/index.html";
+  var VIEW_LABEL = "View 360 ↗";
+
   function splitWords(el, text) {
     el.replaceChildren();
     text.split(/(\s+)/).forEach(function (part) {
@@ -48,6 +52,34 @@
     var fig = document.createElement("figure");
     fig.append(photoImg(photo));
     return fig;
+  }
+
+  function tourTitle(tour) {
+    var cap = document.createElement("span");
+    cap.className = "tour-title";
+    cap.textContent = tour.title;
+    return cap;
+  }
+
+  function catalogPeek(tour) {
+    var link = document.createElement("a");
+    link.className = "tour-peek";
+    link.href = TOUR_PAGE;
+    link.append(photoImg(tour), tourTitle(tour));
+    return link;
+  }
+
+  function mosaicTile(tour) {
+    var link = document.createElement("a");
+    link.className = "tour-tile";
+    link.href = tour.url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    var view = document.createElement("span");
+    view.className = "tour-view";
+    view.textContent = VIEW_LABEL;
+    link.append(photoImg(tour), tourTitle(tour), view);
+    return link;
   }
 
   function brandNode(text, tag) {
@@ -170,19 +202,12 @@
       });
       var grid = document.createElement("div");
       grid.className = "tour-grid";
-      tours.forEach(function (tour) {
-        var link = document.createElement("a");
-        link.className = "tour-tile";
-        link.href = "360/index.html";
-        var img = photoImg(tour);
-        var cap = document.createElement("span");
-        cap.textContent = tour.title;
-        link.append(img, cap);
-        grid.append(link);
+      tours.slice(0, HOME_TOUR_COUNT).forEach(function (tour) {
+        grid.append(catalogPeek(tour));
       });
       var more = document.createElement("a");
       more.className = "view-all";
-      more.href = "360/index.html";
+      more.href = TOUR_PAGE;
       more.textContent = "View";
       box.append(grid, more);
       el.append(box);
@@ -219,16 +244,7 @@
     if (!mosaic) return;
     mosaic.replaceChildren();
     tours.forEach(function (tour) {
-      var link = document.createElement("a");
-      link.className = "tour-tile";
-      link.href = tour.url;
-      link.target = "_blank";
-      link.rel = "noopener";
-      var img = photoImg(tour);
-      var cap = document.createElement("span");
-      cap.textContent = tour.title;
-      link.append(img, cap);
-      mosaic.append(link);
+      mosaic.append(mosaicTile(tour));
     });
   }
 
@@ -355,7 +371,7 @@
       });
     });
 
-    var tourTiles = document.querySelectorAll(".tour-teaser .tour-tile");
+    var tourTiles = document.querySelectorAll(".tour-teaser .tour-peek");
     if (tourTiles.length) {
       gsap.fromTo(tourTiles, { opacity: 0.2, y: 36 }, {
         opacity: 1,
@@ -412,7 +428,7 @@
     if (reduced || !window.gsap || !window.ScrollTrigger) return;
     gsap.registerPlugin(ScrollTrigger);
     initLenis();
-    var tiles = document.querySelectorAll(".tour-tile");
+    var tiles = document.querySelectorAll(".tour-mosaic .tour-tile");
     if (!tiles.length) return;
     gsap.set(tiles, { opacity: 0, y: 24 });
     ScrollTrigger.batch(tiles, {
