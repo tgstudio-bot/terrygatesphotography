@@ -22,6 +22,8 @@ body {
   line-height: 1.5;
 }
 
+body.nav-open { overflow: hidden; }
+
 img { max-width: 100%; height: auto; display: block; }
 
 a { color: inherit; }
@@ -70,11 +72,36 @@ a { color: inherit; }
 .top a { pointer-events: auto; text-decoration: none; }
 
 .top-name {
+  position: relative;
+  z-index: 2;
   font-family: var(--serif);
   font-size: 1.05rem;
   letter-spacing: 0.04em;
   white-space: nowrap;
 }
+
+.menu-btn {
+  display: none;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+  padding: 0.2rem 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.menu-btn .when-open { display: none; }
+
+.menu-btn[aria-expanded="true"] .when-closed { display: none; }
+
+.menu-btn[aria-expanded="true"] .when-open { display: inline; }
 
 .top-nav {
   display: flex;
@@ -107,10 +134,40 @@ a { color: inherit; }
   width: 100%;
   height: 100%;
   max-width: none;
-  object-fit: contain;
-  object-position: center bottom;
+  object-fit: cover;
+  object-position: center 18%;
   background: #000;
-  transform-origin: center bottom;
+  transform-origin: center 18%;
+}
+
+.hero-copy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 22vh var(--pad) 8vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.28) 46%, rgba(0, 0, 0, 0) 100%);
+  color: #fff;
+  pointer-events: none;
+}
+
+.hero-copy h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(3.4rem, 9vw, 7.5rem);
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+}
+
+.hero-copy p {
+  margin: 0.85rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
 }
 
 .hero-veil {
@@ -417,11 +474,23 @@ body[data-page="tours"] { background: var(--paper); color: var(--ink); }
 
 @media (max-width: 900px) {
   .bio { margin-left: 0; padding-top: 22vh; }
-  .top { flex-wrap: wrap; }
-  .top-nav {
-    flex: 1 0 100%;
-    justify-content: flex-start;
-    row-gap: 0.35rem;
+  .top { flex-wrap: nowrap; align-items: center; }
+  .menu-btn { display: inline-flex; }
+  .top-nav { display: none; }
+  .top-nav.is-open {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.15rem;
+    padding: 5.5rem var(--pad) var(--pad);
+    background: #181818;
+    font-size: clamp(1.35rem, 5.5vw, 2rem);
+    letter-spacing: 0.12em;
+    pointer-events: auto;
   }
   .featured { grid-template-columns: 1fr 1fr; }
   .columns { grid-template-columns: 1fr; gap: 0.2rem; }
@@ -446,9 +515,9 @@ body[data-page="tours"] { background: var(--paper); color: var(--ink); }
 
 @media (prefers-reduced-motion: reduce) {
   .bio-text .word { opacity: 1; }
-  .hero { height: auto; min-height: 0; }
-  .hero-frame { height: auto; }
-  .hero-img { height: auto; }
+  .hero { height: 100vh; min-height: 32rem; }
+  .hero-frame { height: 100%; }
+  .hero-img { height: 100%; object-fit: cover; }
   .h-wrap { height: auto; overflow: visible; }
   .h-track {
     flex-direction: column;

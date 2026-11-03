@@ -424,7 +424,49 @@
     });
   }
 
+  function initMenu() {
+    var btn = document.querySelector(".menu-btn");
+    var nav = document.querySelector(".top-nav");
+    if (!btn || !nav) return;
+
+    function setOpen(open) {
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      nav.classList.toggle("is-open", open);
+      document.body.classList.toggle("nav-open", open);
+    }
+
+    btn.addEventListener("click", function () {
+      var open = btn.getAttribute("aria-expanded") !== "true";
+      setOpen(open);
+      if (open) {
+        var first = nav.querySelector("a");
+        if (first) first.focus();
+      }
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (btn.getAttribute("aria-expanded") !== "true") return;
+      if (e.key === "Escape") {
+        setOpen(false);
+        btn.focus();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      var items = [btn].concat(Array.prototype.slice.call(nav.querySelectorAll("a")));
+      var index = items.indexOf(document.activeElement);
+      if (index < 0) return;
+      e.preventDefault();
+      var next = e.shiftKey ? (index - 1 + items.length) % items.length : (index + 1) % items.length;
+      items[next].focus();
+    });
+
+    nav.addEventListener("click", function (e) {
+      if (e.target.closest("a") || e.target === nav) setOpen(false);
+    });
+  }
+
   var page = document.body.getAttribute("data-page");
+  initMenu();
 
   if (page === "tours") {
     fetch(asset("data/360.json"))

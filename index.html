@@ -4,28 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Terry Gates</title>
-  <link rel="icon" href="photos/cover.jpg">
+  <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body data-page="home">
   <a class="skip" href="#bio">Skip to about</a>
   <header class="top">
     <a class="top-name" href="#hero">Terry Gates</a>
-    <nav class="top-nav" aria-label="Sections"></nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu">
+      <span class="when-closed">Menu</span>
+      <span class="when-open">Close</span>
+    </button>
+    <nav class="top-nav" id="site-menu" aria-label="Sections"></nav>
   </header>
   <main>
     <section class="hero" id="hero">
       <div class="hero-frame">
         <img
           class="hero-img"
-          src="photos/cover.jpg"
-          alt="Terry Gates"
-          width="2000"
-          height="1125"
+          src="photos/studio-06.jpg"
+          alt="Model seated in a red suit"
+          width="1039"
+          height="1296"
         >
         <div class="hero-veil" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1>Terry Gates</h1>
+          <p>Photography</p>
+        </div>
       </div>
-      <h1 class="visually-hidden">Terry Gates</h1>
     </section>
     <section class="bio" id="bio">
       <p class="eyebrow">About</p>

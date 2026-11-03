@@ -4,8 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found — Terry Gates</title>
-  <link rel="icon" href="photos/cover.jpg">
-  <link rel="stylesheet" href="css/site.css">
+  <script>
+    (function () {
+      var base = location.pathname.indexOf("/terrygatesphotography/") === 0
+        ? "/terrygatesphotography/"
+        : "/";
+      document.write(
+        '<base href="' + base + '">' +
+        '<link rel="icon" href="favicon.svg">' +
+        '<link rel="stylesheet" href="css/site.css">'
+      );
+    })();
+  </script>
 </head>
 <body>
   <main class="missing">

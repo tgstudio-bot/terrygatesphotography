@@ -1,10 +1,4 @@
 {
-  "cover": {
-    "file": "photos/cover.jpg",
-    "alt": "Terry Gates",
-    "width": 2000,
-    "height": 1125
-  },
   "sections": [
     {
       "id": "lifestyle",
