@@ -1,0 +1,61 @@
+{
+  "name": "Terry Gates",
+  "bio": "I’ve shaped visual narratives for Bloomingdales, L’Oreal, Sass and Bide, Saks Fifth Ave, Vogue, and NYX Cosmetics as a photographer and art director. My trailblazing 360-degree interactive photography and AI innovations have earned me a historic first: featuring photography, 3D, and AI in multiple international Vogue magazines",
+  "instagramLabel": "Instagram",
+  "instagram": "https://www.instagram.com/terrygates/",
+  "webLabel": "Web",
+  "web": "https://www.terrygatesphotography.com/",
+  "clientsTitle": "Clients",
+  "featured": [
+    "VOGUE",
+    "GUCCI",
+    "CHANEL",
+    "DIOR",
+    "bloomingdales",
+    "Wynn",
+    "L’ORÉAL",
+    "Saks Fifth Avenue"
+  ],
+  "columns": [
+    [
+      "SWAROVSKI",
+      "LOUBOUTIN",
+      "VICTORIA’S SECRET",
+      "DAVID YURMAN",
+      "ARMANI",
+      "H&M",
+      "SUNGLASSES HUT",
+      "ROYAL CARRIBEAN",
+      "PUBLIC HOTEL",
+      "FERRAGAMO"
+    ],
+    [
+      "TIFFANY AND CO.",
+      "CLUB MONACO",
+      "ANNA SUI",
+      "UBER",
+      "BROOKLYN MUSEUM",
+      "FENDI",
+      "23 AND ME",
+      "TOPSHOP",
+      "HBO",
+      "ELEVEN MADISON PARK",
+      "RESTAURANT"
+    ],
+    [
+      "LA PERLA",
+      "LONGCHAMP",
+      "MULBERRY",
+      "MARIMEKO",
+      "GREY GOOSE",
+      "GUESS",
+      "DIESEL",
+      "COS",
+      "THE STANDARD HOTEL",
+      "THE JAMES HOTEL"
+    ]
+  ],
+  "contactHeading": "Thank you",
+  "contact": "For additional photography, 360, and 3D inquiries, please contact",
+  "email": "terrygatesphoto@gmail.com"
+}

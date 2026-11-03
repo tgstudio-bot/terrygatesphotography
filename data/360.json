@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Virtual Vanity",
+    "url": "https://terrygates360.com/vsing/",
+    "thumb": "photos/360/vsing.jpg",
+    "width": 1800,
+    "height": 1000,
+    "alt": "Virtual Vanity 360 photograph"
+  },
+  {
+    "title": "J360",
+    "url": "https://terrygates360.com/j360/",
+    "thumb": "photos/360/j360.jpg",
+    "width": 1800,
+    "height": 1000,
+    "alt": "J360 360 photograph"
+  },
+  {
+    "title": "Madame Figaro",
+    "url": "https://terrygates360.com/mf1/",
+    "thumb": "photos/360/mf1.jpg",
+    "width": 1800,
+    "height": 1000,
+    "alt": "Madame Figaro 360 photograph"
+  },
+  {
+    "title": "Sass & Bide",
+    "url": "https://terrygates360.com/novateur/",
+    "thumb": "photos/360/novateur.jpg",
+    "width": 1800,
+    "height": 1000,
+    "alt": "Sass & Bide 360 photograph"
+  },
+  {
+    "title": "Anubis",
+    "url": "https://terrygates360.com/anubis/",
+    "thumb": "photos/360/anubis.jpg",
+    "width": 1800,
+    "height": 1000,
+    "alt": "Anubis 360 photograph"
+  }
+]

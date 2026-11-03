@@ -1,0 +1,484 @@
+{
+  "cover": {
+    "file": "photos/cover.jpg",
+    "alt": "Terry Gates",
+    "width": 2000,
+    "height": 1125
+  },
+  "sections": [
+    {
+      "id": "lifestyle",
+      "title": "Lifestyle",
+      "number": "05",
+      "photos": [
+        {
+          "file": "photos/lifestyle-01.jpg",
+          "alt": "Lifestyle photograph 1",
+          "width": 558,
+          "height": 544
+        },
+        {
+          "file": "photos/lifestyle-02.jpg",
+          "alt": "Lifestyle photograph 2",
+          "width": 1911,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-03.jpg",
+          "alt": "Lifestyle photograph 3",
+          "width": 1907,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-04.jpg",
+          "alt": "Lifestyle photograph 4",
+          "width": 1911,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-05.jpg",
+          "alt": "Lifestyle photograph 5",
+          "width": 1907,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-06.jpg",
+          "alt": "Lifestyle photograph 6",
+          "width": 908,
+          "height": 1202
+        },
+        {
+          "file": "photos/lifestyle-07.jpg",
+          "alt": "Lifestyle photograph 7",
+          "width": 1201,
+          "height": 1202
+        },
+        {
+          "file": "photos/lifestyle-08.jpg",
+          "alt": "Lifestyle photograph 8",
+          "width": 964,
+          "height": 1203
+        },
+        {
+          "file": "photos/lifestyle-09.jpg",
+          "alt": "Lifestyle photograph 9",
+          "width": 967,
+          "height": 1202
+        },
+        {
+          "file": "photos/lifestyle-10.jpg",
+          "alt": "Lifestyle photograph 10",
+          "width": 1201,
+          "height": 1202
+        },
+        {
+          "file": "photos/lifestyle-11.jpg",
+          "alt": "Lifestyle photograph 11",
+          "width": 964,
+          "height": 1203
+        },
+        {
+          "file": "photos/lifestyle-12.jpg",
+          "alt": "Lifestyle photograph 12",
+          "width": 1723,
+          "height": 1203
+        },
+        {
+          "file": "photos/lifestyle-13.jpg",
+          "alt": "Lifestyle photograph 13",
+          "width": 1719,
+          "height": 1203
+        },
+        {
+          "file": "photos/lifestyle-14.jpg",
+          "alt": "Lifestyle photograph 14",
+          "width": 1072,
+          "height": 1333
+        },
+        {
+          "file": "photos/lifestyle-15.jpg",
+          "alt": "Lifestyle photograph 15",
+          "width": 1332,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-16.jpg",
+          "alt": "Lifestyle photograph 16",
+          "width": 1068,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-17.jpg",
+          "alt": "Lifestyle photograph 17",
+          "width": 918,
+          "height": 640
+        },
+        {
+          "file": "photos/lifestyle-18.jpg",
+          "alt": "Lifestyle photograph 18",
+          "width": 1409,
+          "height": 985
+        },
+        {
+          "file": "photos/lifestyle-19.jpg",
+          "alt": "Lifestyle photograph 19",
+          "width": 1510,
+          "height": 1054
+        },
+        {
+          "file": "photos/lifestyle-20.jpg",
+          "alt": "Lifestyle photograph 20",
+          "width": 1615,
+          "height": 1130
+        },
+        {
+          "file": "photos/lifestyle-21.jpg",
+          "alt": "Lifestyle photograph 21",
+          "width": 1072,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-22.jpg",
+          "alt": "Lifestyle photograph 22",
+          "width": 1333,
+          "height": 1332
+        },
+        {
+          "file": "photos/lifestyle-23.jpg",
+          "alt": "Lifestyle photograph 23",
+          "width": 1068,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-24.jpg",
+          "alt": "Lifestyle photograph 24",
+          "width": 1998,
+          "height": 1332
+        },
+        {
+          "file": "photos/lifestyle-25.jpg",
+          "alt": "Lifestyle photograph 25",
+          "width": 891,
+          "height": 1336
+        },
+        {
+          "file": "photos/lifestyle-26.jpg",
+          "alt": "Lifestyle photograph 26",
+          "width": 890,
+          "height": 1334
+        },
+        {
+          "file": "photos/lifestyle-27.jpg",
+          "alt": "Lifestyle photograph 27",
+          "width": 1423,
+          "height": 993
+        },
+        {
+          "file": "photos/lifestyle-28.jpg",
+          "alt": "Lifestyle photograph 28",
+          "width": 1906,
+          "height": 1333
+        },
+        {
+          "file": "photos/lifestyle-29.jpg",
+          "alt": "Lifestyle photograph 29",
+          "width": 1515,
+          "height": 1058
+        },
+        {
+          "file": "photos/lifestyle-30.jpg",
+          "alt": "Lifestyle photograph 30",
+          "width": 1317,
+          "height": 920
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "title": "Studio",
+      "number": "18",
+      "photos": [
+        {
+          "file": "photos/studio-01.jpg",
+          "alt": "Studio photograph 1",
+          "width": 998,
+          "height": 1337
+        },
+        {
+          "file": "photos/studio-02.jpg",
+          "alt": "Studio photograph 2",
+          "width": 646,
+          "height": 646
+        },
+        {
+          "file": "photos/studio-03.jpg",
+          "alt": "Studio photograph 3",
+          "width": 1028,
+          "height": 1331
+        },
+        {
+          "file": "photos/studio-04.jpg",
+          "alt": "Studio photograph 4",
+          "width": 1043,
+          "height": 1296
+        },
+        {
+          "file": "photos/studio-05.jpg",
+          "alt": "Studio photograph 5",
+          "width": 1009,
+          "height": 1009
+        },
+        {
+          "file": "photos/studio-06.jpg",
+          "alt": "Studio photograph 6",
+          "width": 1039,
+          "height": 1296
+        },
+        {
+          "file": "photos/studio-07.jpg",
+          "alt": "Studio photograph 7",
+          "width": 996,
+          "height": 1328
+        },
+        {
+          "file": "photos/studio-08.jpg",
+          "alt": "Studio photograph 8",
+          "width": 1326,
+          "height": 1326
+        },
+        {
+          "file": "photos/studio-09.jpg",
+          "alt": "Studio photograph 9",
+          "width": 960,
+          "height": 1329
+        },
+        {
+          "file": "photos/studio-10.jpg",
+          "alt": "Studio photograph 10",
+          "width": 1073,
+          "height": 1333
+        },
+        {
+          "file": "photos/studio-11.jpg",
+          "alt": "Studio photograph 11",
+          "width": 1334,
+          "height": 1334
+        },
+        {
+          "file": "photos/studio-12.jpg",
+          "alt": "Studio photograph 12",
+          "width": 1069,
+          "height": 1334
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "title": "360",
+      "number": "23",
+      "photos": [
+        {
+          "file": "photos/360-01.jpg",
+          "alt": "360 photograph 1",
+          "width": 646,
+          "height": 632
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "title": "Event",
+      "number": "30",
+      "photos": [
+        {
+          "file": "photos/event-01.jpg",
+          "alt": "Event photograph 1",
+          "width": 656,
+          "height": 645
+        },
+        {
+          "file": "photos/event-02.jpg",
+          "alt": "Event photograph 2",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-03.jpg",
+          "alt": "Event photograph 3",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-04.jpg",
+          "alt": "Event photograph 4",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-05.jpg",
+          "alt": "Event photograph 5",
+          "width": 1000,
+          "height": 563
+        }
+      ]
+    },
+    {
+      "id": "3d",
+      "title": "3D",
+      "number": "31",
+      "photos": [
+        {
+          "file": "photos/3d-01.jpg",
+          "alt": "3D photograph 1",
+          "width": 649,
+          "height": 647
+        },
+        {
+          "file": "photos/3d-02.jpg",
+          "alt": "3D photograph 2",
+          "width": 1331,
+          "height": 932
+        },
+        {
+          "file": "photos/3d-03.jpg",
+          "alt": "3D photograph 3",
+          "width": 1240,
+          "height": 869
+        },
+        {
+          "file": "photos/3d-04.jpg",
+          "alt": "3D photograph 4",
+          "width": 1063,
+          "height": 744
+        },
+        {
+          "file": "photos/3d-05.jpg",
+          "alt": "3D photograph 5",
+          "width": 1137,
+          "height": 800
+        },
+        {
+          "file": "photos/3d-06.jpg",
+          "alt": "3D photograph 6",
+          "width": 703,
+          "height": 1210
+        },
+        {
+          "file": "photos/3d-07.jpg",
+          "alt": "3D photograph 7",
+          "width": 1723,
+          "height": 1035
+        },
+        {
+          "file": "photos/3d-08.jpg",
+          "alt": "3D photograph 8",
+          "width": 777,
+          "height": 1339
+        },
+        {
+          "file": "photos/3d-09.jpg",
+          "alt": "3D photograph 9",
+          "width": 1070,
+          "height": 1330
+        },
+        {
+          "file": "photos/3d-10.jpg",
+          "alt": "3D photograph 10",
+          "width": 1697,
+          "height": 1328
+        },
+        {
+          "file": "photos/3d-11.jpg",
+          "alt": "3D photograph 11",
+          "width": 989,
+          "height": 1328
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI art",
+      "number": "35",
+      "photos": [
+        {
+          "file": "photos/ai-01.jpg",
+          "alt": "AI art photograph 1",
+          "width": 768,
+          "height": 771
+        },
+        {
+          "file": "photos/ai-02.jpg",
+          "alt": "AI art photograph 2",
+          "width": 826,
+          "height": 1024
+        },
+        {
+          "file": "photos/ai-03.jpg",
+          "alt": "AI art photograph 3",
+          "width": 1332,
+          "height": 1332
+        },
+        {
+          "file": "photos/ai-04.jpg",
+          "alt": "AI art photograph 4",
+          "width": 822,
+          "height": 1024
+        },
+        {
+          "file": "photos/ai-05.jpg",
+          "alt": "AI art photograph 5",
+          "width": 888,
+          "height": 1109
+        },
+        {
+          "file": "photos/ai-06.jpg",
+          "alt": "AI art photograph 6",
+          "width": 1066,
+          "height": 1332
+        },
+        {
+          "file": "photos/ai-07.jpg",
+          "alt": "AI art photograph 7",
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "file": "photos/ai-08.jpg",
+          "alt": "AI art photograph 8",
+          "width": 1072,
+          "height": 1332
+        },
+        {
+          "file": "photos/ai-09.jpg",
+          "alt": "AI art photograph 9",
+          "width": 1375,
+          "height": 1377
+        },
+        {
+          "file": "photos/ai-10.jpg",
+          "alt": "AI art photograph 10",
+          "width": 1069,
+          "height": 1333
+        },
+        {
+          "file": "photos/ai-11.jpg",
+          "alt": "AI art photograph 11",
+          "width": 768,
+          "height": 960
+        },
+        {
+          "file": "photos/ai-12.jpg",
+          "alt": "AI art photograph 12",
+          "width": 615,
+          "height": 768
+        },
+        {
+          "file": "photos/ai-13.jpg",
+          "alt": "AI art photograph 13",
+          "width": 768,
+          "height": 960
+        }
+      ]
+    }
+  ]
+}
