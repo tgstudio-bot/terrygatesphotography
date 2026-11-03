@@ -19,24 +19,104 @@
     "title": "Madame Figaro",
     "url": "https://terrygates360.com/mf1/",
     "thumb": "photos/360/mf1.jpg",
-    "width": 1800,
-    "height": 1000,
+    "width": 1600,
+    "height": 900,
     "alt": "Madame Figaro 360 photograph"
   },
   {
-    "title": "Sass & Bide",
+    "title": "Novateur — Sass & Bide",
     "url": "https://terrygates360.com/novateur/",
     "thumb": "photos/360/novateur.jpg",
     "width": 1800,
     "height": 1000,
-    "alt": "Sass & Bide 360 photograph"
+    "alt": "Novateur — Sass & Bide 360 photograph"
   },
   {
     "title": "Anubis",
     "url": "https://terrygates360.com/anubis/",
     "thumb": "photos/360/anubis.jpg",
-    "width": 1800,
-    "height": 1000,
+    "width": 1600,
+    "height": 900,
     "alt": "Anubis 360 photograph"
+  },
+  {
+    "title": "Vanity Fair",
+    "url": "https://terrygates360.com/vf/",
+    "thumb": "photos/360/vf.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Vanity Fair 360 photograph"
+  },
+  {
+    "title": "Saks",
+    "url": "https://terrygates360.com/saks_gs/",
+    "thumb": "photos/360/saks_gs.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Saks 360 photograph"
+  },
+  {
+    "title": "Beach",
+    "url": "https://terrygates360.com/beach/",
+    "thumb": "photos/360/beach.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Beach 360 photograph"
+  },
+  {
+    "title": "Public",
+    "url": "https://terrygates360.com/public1/",
+    "thumb": "photos/360/public1.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Public 360 photograph"
+  },
+  {
+    "title": "AFV",
+    "url": "https://terrygates360.com/afv/",
+    "thumb": "photos/360/afv.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "AFV 360 photograph"
+  },
+  {
+    "title": "MJ",
+    "url": "https://terrygates360.com/mj/",
+    "thumb": "photos/360/mj.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "MJ 360 photograph"
+  },
+  {
+    "title": "10B",
+    "url": "https://terrygates360.com/10b/",
+    "thumb": "photos/360/10b.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "10B 360 photograph"
+  },
+  {
+    "title": "QS",
+    "url": "https://terrygates360.com/qs/",
+    "thumb": "photos/360/qs.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "QS 360 photograph"
+  },
+  {
+    "title": "Matrix",
+    "url": "https://terrygates360.com/matrix/",
+    "thumb": "photos/360/matrix.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Matrix 360 photograph"
+  },
+  {
+    "title": "Ice Cream",
+    "url": "https://terrygates360.com/icecream/",
+    "thumb": "photos/360/icecream.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Ice Cream 360 photograph"
   }
 ]
