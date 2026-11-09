@@ -165,12 +165,9 @@
     el.className = "block block-" + section.id;
     var opener = document.createElement("div");
     opener.className = "opener";
-    var num = document.createElement("p");
-    num.className = "opener-num";
-    num.textContent = section.number;
     var heading = document.createElement("h2");
     heading.textContent = section.title;
-    opener.append(num, heading);
+    opener.append(heading);
     el.append(opener);
 
     var kind = treatments[section.id] || "grid";
