@@ -194,9 +194,12 @@
     } else if (kind === "teaser") {
       var box = document.createElement("div");
       box.className = "tour-teaser";
+      var shots = document.createElement("div");
+      shots.className = "teaser-photos";
       section.photos.forEach(function (photo) {
-        box.append(photoFigure(photo));
+        shots.append(photoFigure(photo));
       });
+      box.append(shots);
       var grid = document.createElement("div");
       grid.className = "tour-grid";
       tours.slice(0, HOME_TOUR_COUNT).forEach(function (tour) {

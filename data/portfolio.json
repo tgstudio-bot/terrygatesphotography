@@ -276,6 +276,30 @@
           "alt": "360 photograph 1",
           "width": 646,
           "height": 632
+        },
+        {
+          "file": "photos/event-02.jpg",
+          "alt": "360 photograph 2",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-03.jpg",
+          "alt": "360 photograph 3",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-04.jpg",
+          "alt": "360 photograph 4",
+          "width": 1000,
+          "height": 563
+        },
+        {
+          "file": "photos/event-05.jpg",
+          "alt": "360 photograph 5",
+          "width": 1000,
+          "height": 563
         }
       ]
     },
@@ -289,30 +313,6 @@
           "alt": "Event photograph 1",
           "width": 656,
           "height": 645
-        },
-        {
-          "file": "photos/event-02.jpg",
-          "alt": "Event photograph 2",
-          "width": 1000,
-          "height": 563
-        },
-        {
-          "file": "photos/event-03.jpg",
-          "alt": "Event photograph 3",
-          "width": 1000,
-          "height": 563
-        },
-        {
-          "file": "photos/event-04.jpg",
-          "alt": "Event photograph 4",
-          "width": 1000,
-          "height": 563
-        },
-        {
-          "file": "photos/event-05.jpg",
-          "alt": "Event photograph 5",
-          "width": 1000,
-          "height": 563
         }
       ]
     },
